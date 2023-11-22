@@ -1,4 +1,4 @@
-import 'package:musica/domain/musica.dart';
+import 'package:musica/domain/music.dart';
 
 class Album {
   final String artist;
@@ -6,12 +6,14 @@ class Album {
   final int yearReleased;
   final String cover;
   final List<Music> musics;
+  final String spotifyEmbedUrl; // Corrigir o tipo do campo
 
   Album({
     required this.artist,
     required this.title,
     required this.yearReleased,
     required this.cover,
-    required this.musics, required String spotifyEmbedUrl,
+    required this.musics,
+    required this.spotifyEmbedUrl,
   });
 }

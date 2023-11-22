@@ -113,33 +113,12 @@ List<Album> loadAlbums() {
       artist: "Taylor Swift",
       title: "1989 (Taylor's Version) [Deluxe]",
       yearReleased: 2023,
-      cover: "assets/Taylor.jpg",
+      cover: "assets/Taylor.png",
       musics: <Music>[
-        Music(
-            title: "Welcome To New York (Taylor's Version)",
-            number: 1,
-            duration: "3:32",
-            albumCover: 'assets/Taylor.jpg',
-            artist: "Taylor Swift"),
-        Music(
-            title: "Blank Space (Taylor's Version)",
-            number: 2,
-            duration: "3:51",
-            albumCover: 'assets/Taylor.jpg',
-            artist: "Taylor Swift"),
-        Music(
-            title: "Shake It Off (Taylor's Version)",
-            number: 3,
-            duration: "3:39",
-            albumCover: 'assets/Taylor.jpg',
-            artist: "Taylor Swift"),
-        Music(
-            title: "Bad Blood (Taylor's Version)",
-            number: 4,
-            duration: "3:31",
-            albumCover: 'assets/Taylor.jpg',
-            artist: "Taylor Swift"),
+        // ... suas músicas aqui ...
       ],
-    ),
+      spotifyEmbedUrl:
+          "https://open.spotify.com/intl-pt/album/1o59UpKw81iHR0HPiSkJR0",
+    )
   ];
 }
