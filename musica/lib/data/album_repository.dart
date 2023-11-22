@@ -73,14 +73,14 @@ List<Album> loadAlbums() {
             title: "Forever Young",
             number: 1,
             duration: "3:46",
-            albumCover: 'Nothing',
-            artist: "assets/ForeverYoung.jpg"),
+            albumCover: 'assets/ForeverYoung.jpg',
+            artist: "Alphaviller"),
         Music(
             title: "Big In Japan",
             number: 2,
             duration: "4:46",
-            albumCover: 'Nothing',
-            artist: "assets/ForeverYoung.jpg"),
+            albumCover: 'assets/ForeverYoung.jpg',
+            artist: "Alphaville"),
       ],
     ),
     Album(
@@ -107,6 +107,38 @@ List<Album> loadAlbums() {
             duration: "3:34",
             artist: "Ariana Grande",
             albumCover: "assets/Ariana.png"),
+      ],
+    ),
+    Album(
+      artist: "Taylor Swift",
+      title: "1989 (Taylor's Version) [Deluxe]",
+      yearReleased: 2023,
+      cover: "assets/Taylor.jpg",
+      musics: <Music>[
+        Music(
+            title: "Welcome To New York (Taylor's Version)",
+            number: 1,
+            duration: "3:32",
+            albumCover: 'assets/Taylor.jpg',
+            artist: "Taylor Swift"),
+        Music(
+            title: "Blank Space (Taylor's Version)",
+            number: 2,
+            duration: "3:51",
+            albumCover: 'assets/Taylor.jpg',
+            artist: "Taylor Swift"),
+        Music(
+            title: "Shake It Off (Taylor's Version)",
+            number: 3,
+            duration: "3:39",
+            albumCover: 'assets/Taylor.jpg',
+            artist: "Taylor Swift"),
+        Music(
+            title: "Bad Blood (Taylor's Version)",
+            number: 4,
+            duration: "3:31",
+            albumCover: 'assets/Taylor.jpg',
+            artist: "Taylor Swift"),
       ],
     ),
   ];
